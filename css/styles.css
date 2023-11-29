@@ -1,12 +1,102 @@
 body{
     font-family: 'Roboto', sans-serif;
-    color: 434455;
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
     background-color: #ffffff;
     line-height: 24px; 
+    letter-spacing: 2%;
+    font-style: normal;
 }
 ul {
     list-style-type: none;
 }
 a{
     text-decoration: none;
+}
+.header-logo{
+    font-family: 'raleway';
+    color: #2E2F42;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+}
+.header-logo-web{
+    color: #4D5AE5;
+}
+.header-nav{
+    font-family: 'roboto' ;
+    font-size: 16px;
+    color: #2E2F42;
+    font-weight: 500;
+    text-transform: none;
+}
+.header-nav :hover {
+    font-size: 16px;
+    color: #404BBF;
+    font-weight: 500;
+    font-size: 16px;
+}
+.header-address-contacts {
+    font-weight: 400 ;
+    color: #2E2F42;
+    font-style: normal;
+}
+.header-address-contacts :hover{
+    font-weight: 400;
+    color: #404BBF;
+    font-style: normal;
+}
+.hero{
+    background-color: #2E2F42;
+}
+.hero-title{
+    color: #ffffff;
+    font-family: 'roboto';
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 2%;
+}
+.hero-button{
+    color: #ffffff;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 4%;
+}
+.hero-button :hover{
+    color: #ffffff;
+    background-color: #404BBF;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 4%;
+}
+.about-us-title{
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2%;
+}
+.about-us-text{
+    color: #434455;
+}
+.our-team{
+    background-color: #F4F4FD;
+}
+.our-team-title{
+    color: #2E2F42;
+    font-weight: 800;
+    font-size: 36px;
+    letter-spacing: 2%;
+}
+.our-team-names{
+    font-size: 20px;
+    font-weight: 500;
+    color: #2E2F42 ;
+}
+.our-team-position{
+    color: #434455;
 }
