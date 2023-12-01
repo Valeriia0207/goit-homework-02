@@ -4,8 +4,8 @@ body{
     font-size: 16px;
     color: #434455;
     background-color: #ffffff;
-    line-height: 24px; 
-    letter-spacing: 2%;
+    line-height: 1.2; 
+    letter-spacing: 0.02em;
     font-style: normal;
 }
 ul {
@@ -16,21 +16,22 @@ a{
 }
 .header-logo{
     font-family: 'raleway';
-    color: #2E2F42;
-    font-weight: 800;
+    color: #4D5AE5;
+    font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 3%;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.header-logo-web{
-    color: #4D5AE5;
+.header-logo-studio{
+    color: #2E2F42;
 }
 .header-nav{
-    font-family: 'roboto' ;
     font-size: 16px;
     color: #2E2F42;
     font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     text-transform: none;
 }
 .header-nav :hover {
@@ -39,12 +40,25 @@ a{
     font-weight: 500;
     font-size: 16px;
 }
+.header-nav :focus {
+    font-size: 16px;
+    color: #404BBF;
+    font-weight: 500;
+    font-size: 16px;
+}
 .header-address-contacts {
     font-weight: 400 ;
-    color: #2E2F42;
+    color: #434455;
     font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .header-address-contacts :hover{
+    font-weight: 400;
+    color: #404BBF;
+    font-style: normal;
+}
+.header-address-contacts :focus {
     font-weight: 400;
     color: #404BBF;
     font-style: normal;
@@ -57,31 +71,44 @@ a{
     font-family: 'roboto';
     font-weight: 800;
     font-size: 56px;
-    line-height: 60px;
-    letter-spacing: 2%;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 .hero-button{
     color: #ffffff;
     background-color: #4D5AE5;
     font-weight: 500;
     font-size: 16px;
-    letter-spacing: 4%;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .hero-button :hover{
     color: #ffffff;
     background-color: #404BBF;
     font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 4%;
+    font-size: 1.5px;
+    letter-spacing: 0.04em;
+}
+.hero-button :focus {
+    color: #ffffff;
+    background-color: #404BBF;
+    font-weight: 500;
+    font-size: 1.5px;
+    letter-spacing: 0.04em;
 }
 .about-us-title{
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
-    letter-spacing: 2%;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .about-us-text{
     color: #434455;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .team{
     background-color: #F4F4FD;
@@ -90,42 +117,67 @@ a{
     color: #2E2F42;
     font-weight: 800;
     font-size: 36px;
-    letter-spacing: 2%;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+.team-list{
+    background-color: #ffffff;
 }
 .team-names{
     font-size: 20px;
     font-weight: 500;
-    color: #2E2F42 ;
+    color: #2E2F42;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .team-position{
     color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .portfolio-title{
-        color: #2E2F42;
-        font-weight: 800;
-        font-size: 36px;
-        letter-spacing: 2%;
+    color: #2E2F42;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
 }
 .potfolio-samples{
     color: #2E2F42;
     font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .portfolio-kind{
-    color: #2E2F42;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .footer{
     background-color: #2E2F42;
     color: #F4F4FD;
 }
 .footer-logo{
-    font-family: 'raleway';
-    font-weight: 800;
+    font-family: 'raleway', sans-serif;
+    font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 3%;
-    color: #F4F4FD;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
     text-transform: uppercase;
 }
-.footer-logo-web{
-    color: #4D5AE5;
+.footer-logo-studio{
+    color: #F4F4FD;
+}
+.footer-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
 }
