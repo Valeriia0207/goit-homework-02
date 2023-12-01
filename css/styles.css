@@ -47,6 +47,9 @@ a{
     font-weight: 500;
     font-size: 16px;
 }
+address{
+    font-style: normal;
+}
 .header-address-contacts {
     font-weight: 400 ;
     color: #434455;
@@ -108,7 +111,7 @@ a{
 }
 .about-us-text{
     color: #434455;
-    line-height: 1.2;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .team{
@@ -163,6 +166,13 @@ a{
 .footer{
     background-color: #2E2F42;
     color: #F4F4FD;
+    font-family: 'raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    text-transform: uppercase;
 }
 .footer-logo{
     font-family: 'raleway', sans-serif;
