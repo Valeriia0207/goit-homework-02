@@ -26,7 +26,7 @@ a{
 .header-logo-studio{
     color: #2E2F42;
 }
-.header-nav{
+.header-nav-list{
     font-size: 16px;
     color: #2E2F42;
     font-weight: 500;
@@ -35,13 +35,13 @@ a{
     text-transform: none;
     color: unset;
 }
-.header-nav :hover {
+.header-nav:hover {
     font-size: 16px;
     color: #404BBF;
     font-weight: 500;
     font-size: 16px;
 }
-.header-nav :focus {
+.header-nav:focus {
     font-size: 16px;
     color: #404BBF;
     font-weight: 500;
@@ -57,12 +57,12 @@ address{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.header-address-contacts :hover{
+.header-address-contacts:hover{
     font-weight: 400;
     color: #404BBF;
     font-style: normal;
 }
-.header-address-contacts :focus {
+.header-address-contacts:focus {
     font-weight: 400;
     color: #404BBF;
     font-style: normal;
@@ -88,19 +88,24 @@ address{
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.hero-button :hover{
+.hero-button:hover{
     color: #ffffff;
     background-color: #404BBF;
     font-weight: 500;
-    font-size: 1.5px;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
 }
-.hero-button :focus {
+.hero-button:focus {
     color: #ffffff;
     background-color: #404BBF;
     font-weight: 500;
-    font-size: 1.5px;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
+}
+.about-us{
+    background-color: #FFFFFF;
 }
 .about-us-title{
     color: #2E2F42;
